@@ -1,0 +1,20 @@
+[project]
+name = "fashion-mnist-vgg16"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Vova",email = "vo82va@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "scikit-learn (>=1.7.2,<2.0.0)",
+    "dash (>=3.2.0,<4.0.0)",
+    "tensorflow (>=2.20.0,<3.0.0)",
+    "pandas (>=2.3.2,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
